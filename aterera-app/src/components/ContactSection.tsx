@@ -2,7 +2,7 @@
 import React, { forwardRef, useRef, useMemo, useLayoutEffect } from 'react';
 import { Canvas, useFrame, useThree } from '@react-three/fiber';
 import * as THREE from 'three';
-import { Mail, MessageSquare, Send, Globe } from "lucide-react";
+import { Mail, MessageSquare, Send } from "lucide-react";
 
 // --- High-Fidelity Silk Shader ---
 const vertexShader = `
